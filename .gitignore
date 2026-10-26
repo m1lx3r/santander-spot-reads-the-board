@@ -1,0 +1,21 @@
+# Photos live in the shared Drive folder, not git
+data/phone_photos/*
+!data/phone_photos/.gitkeep
+data/spot_images/*
+data/synthetic/
+
+# Script output
+results/
+results_*/
+eval_*.csv
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
