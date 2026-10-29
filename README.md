@@ -1,6 +1,8 @@
 # Spot Whiteboard
 
-CS 5190 Computer Vision group project (Cal Poly Pomona). A Boston Dynamics Spot robot finds a whiteboard, flattens it to a straight-on view, and extracts what's written on it.
+CS 5190 Computer Vision (CV) group project at Cal Poly Pomona. A Boston Dynamics Spot robot identifies a whiteboard, flattens it to a straight-on view, and extracts what's written on it.
+
+Initially, Spot will detect characters written in the English language.
 
 - **Mini 1:** conventional CV (edges, contours, homography, lighting correction, thresholding)
 - **Mini 2:** deep learning (board detection + handwriting OCR)
